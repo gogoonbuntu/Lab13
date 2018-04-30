@@ -4,8 +4,8 @@ public class Science extends Book {
 	String Publisher;
 	public Science(String a, String b)
 	{
-		super(a);
-		Publisher=b;
+		super(a);//get name of parent constructor
+		Publisher=b;//unique var for Science.
 	}
 	public void show()
 	{
@@ -13,5 +13,6 @@ public class Science extends Book {
 		System.out.println("\tID: "+thisid);
 		System.out.println("\tBook Name: "+BookName);
 		System.out.println("\tPublisher: "+Publisher);
+		//result as example shows.
 	}
 }
