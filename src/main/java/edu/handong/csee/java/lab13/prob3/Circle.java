@@ -7,18 +7,18 @@ public class Circle extends Shapes{
 	public Circle()
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter radius: ");
-		r = sc.nextDouble();
-		System.out.println("Radius: "+r);
+		System.out.print("Enter radius: "); // get input for radius.
+		r = sc.nextDouble(); // r = input.
+		System.out.println("Radius: "+r); //immediately print out the radius.
 	}
 	public double area()
 	{
 		a = r*r*Math.PI;
-		return a;
+		return a; // calculate the area, which is in interface.
 	}
 	public double perimeter()
 	{
 		p = 2*r*Math.PI;
-		return p;
+		return p; // calculate the perimeter, which is in interface.
 	}
 }
